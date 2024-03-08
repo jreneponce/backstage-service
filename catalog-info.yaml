@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-service-component
+  name: demo-service
   annotations:
     solace-queue-browser/queue: my-queue    
 spec:
