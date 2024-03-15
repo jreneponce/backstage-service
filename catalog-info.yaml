@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: demo-service
   annotations:
-    solace-queue-browser/queue: my-queue    
+    solace-queue-browser/queue-filter: fulfillment-order-svc    
 spec:
   lifecycle: production
-  owner: my-team
+  owner: solace_test
   type: service
