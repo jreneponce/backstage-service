@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: demo-service
+  name: notifications-service
   annotations:
-    solace-queue-browser/queue-filter: fulfillment-order-svc    
+    solace-queue-browser/queue-filter: order-notification-svc    
 spec:
   lifecycle: production
   owner: solace_test
