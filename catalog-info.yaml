@@ -8,6 +8,8 @@ spec:
   lifecycle: production
   owner: solace_test
   type: service
+  providesApi:
+    - hello-world
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
