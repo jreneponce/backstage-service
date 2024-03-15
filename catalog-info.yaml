@@ -17,7 +17,7 @@ metadata:
 spec:
   type: grpc
   lifecycle: deprecated
-  owner: team-c
+  owner: solace_test
   definition: |
     // Copyright 2015 gRPC authors.
     //
