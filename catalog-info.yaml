@@ -3,7 +3,8 @@ kind: Component
 metadata:
   name: fulfillment-order-service
   annotations:
-    backstage.io/kubernetes-id: dev-cluster
+    backstage.io/kubernetes-id: aks-kr-fst-np-dev-eus2-ab73
+    backstage.io/kubernetes-namespace: fom
     solace-queue-browser/queue-filter: fulfillment-order-svc
 spec:
   lifecycle: production
