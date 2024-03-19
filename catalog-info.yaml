@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: fulfillment-order-service
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app=fulfillment-order-app'
+    'backstage.io/kubernetes-id': 'fulfillment-order-service'
     # backstage.io/kubernetes-namespace: fom
     solace-queue-browser/queue-filter: fulfillment-order-svc
 spec:
