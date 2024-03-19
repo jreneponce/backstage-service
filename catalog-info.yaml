@@ -8,3 +8,5 @@ spec:
   lifecycle: production
   owner: solace_test
   type: service
+  consumesApis:
+    - hello-world
